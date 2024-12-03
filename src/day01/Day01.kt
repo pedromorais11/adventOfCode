@@ -1,3 +1,7 @@
+package day01
+
+import println
+import readInput
 import kotlin.math.abs
 
 fun main() {
@@ -52,7 +56,7 @@ fun main() {
 //    check(part1(testInput) == 1)
 
     // Read the input from the `src/Day01.txt` file.
-    val input = readInput("Day01")
+    val input = readInput("day01", "Day01")
     part1(input).println()
     part2(input).println()
 }
