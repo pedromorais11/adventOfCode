@@ -25,8 +25,9 @@ fun main() {
         return abc.count { !it.contains(0) }
     }
 
+
     fun part2(input: List<String>): Int {
-        return input.size
+        TODO()
     }
 
     val input = readInput("day02", "Day02")
